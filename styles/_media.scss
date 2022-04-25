@@ -1,0 +1,29 @@
+@media (min-width: 768px){
+    
+    .heroP{
+        margin-left: 0 !important;
+    }
+    
+    .heroA {
+        margin-left: 0 !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .sideNav.collapse.navbar-collapse {
+        position: static !important;
+    }
+
+    .sideCon{
+
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .heroH1.h1Assert {
+        font-size: 78px !important;
+
+    }
+    
+    
+}

@@ -1,0 +1,63 @@
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-custom';
+@import 'media';
+
+body {
+    padding-top: 100px;
+}
+
+$color1: hsl(0, 0%, 98%);
+$color2: hsl(0, 0%, 41%);
+$color3: hsl(0, 0%, 8%);
+
+.aHover {
+    border-radius: 10px;
+}
+.aHover.nav-link:hover {
+    color: white !important;
+}
+
+.heroH1 {
+    font-size: 45px !important;
+    font-family: 'Epilogue', sans-serif !important;
+    font-weight: bold !important;
+    color: $color3;
+}
+
+.heroP {
+    font-size: 18px !important;
+    width: 85% !important;
+    font-family: 'Epilogue', sans-serif !important; 
+    font-weight: 500;
+    color: $color2;
+    margin: auto;
+}
+
+.heroA {
+    border-radius: 10px;
+    font-family: 'Epilogue', sans-serif !important; 
+    font-weight: 500;
+    background-color: $color3 !important;
+    display: block;
+    margin: auto;
+    width: 150px;
+}
+
+.heroA:hover{
+    color: $color3;
+    background-color: white !important;
+}
+
+.heroImg {
+    height: 67vh !important;
+}
+
+.sideCon{
+    font-family: 'Epilogue', sans-serif !important; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+
+}
